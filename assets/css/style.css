@@ -11,35 +11,31 @@
     gap: 0.25em 0.25em;
     grid-auto-flow: row;
     grid-template-areas: 
-    "heading_txt header header"
+    "header header header"
     "img_1 logo_img img_2"
     "bio_script circle_img tech_specs"
     "bio_script catalogue catalougue"
     "footer footer footer";
 }
-.heading_txt {
-    grid-row: heading_txt;
-    background-color: black;
-    height: 3rem;
 
-    align-items: center;
-    justify-content: center;
-}
+
 .header {
     grid-area: header;
-    background-color: black;
     height: 3rem;
-    width: 100%;
-    display: flex
-    align-items: center;
-    float: right;    
-}
+    background-color: black;
+    clear: both;
+    /* margin: 30px 30px 0; */
+    text-align: center;
+   }
 
 .footer {
     grid-area: footer;
     background-color: black;
-    height: 3rem;
-    width: 100%;
+    clear: both;
+    float: left;
+    margin: 30px 30px 0; 
+    padding: 20px 0 0;
+    text-align: center;
 }
 
 .logo_img {
@@ -79,39 +75,33 @@
 
 /* Header and Menu Styling */
 #menu li {
-    float:right;
-    list-style-type: none;
-    margin-right: 2rem;
-    display: flex;
-    justify-content: center;
-       
-  }
-#menu a {
-    float: left;
+    display: inline;
+    margin: 25px;
+}
+#menu i {
     font-size: x-large;
     text-decoration: none;
-    color: silver;
-    font-family: 'VT323', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(109, 175, 230)
 }
 
-#menu a:hover  {
+ #menu i:hover  {
     border-bottom: 1px solid #f1e3e3;
-    color: rgb(109, 175, 230); 
-}
-
- #heading_txt {
-     object-fit: cover;
- }
- 
- #socials li {
-    list-style-type: none;
-    margin-right: 2rem;
-    display: flex;
-    justify-content: center;
+    color: rgb(156, 134, 9);
  }
 
-#socials a {
+.footer li {
+    margin-right: 50px;
+    display: inline;
+    align-items: center;
+ }
+
+.footer i {
     color :rgb(109, 175, 230);
     text-decoration: none;
-    font-size: x-large;
+    font-size: xx-large;
+}
+
+.footer i:hover  {
+    border-bottom: 1px solid #f1e3e3;
+    color: rgb(156, 134, 9);
 }

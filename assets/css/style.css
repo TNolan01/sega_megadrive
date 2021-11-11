@@ -11,12 +11,22 @@
     gap: 0.25em 0.25em;
     grid-auto-flow: row;
     grid-template-areas: 
-    "header header header"
+    "heading_txt header header"
     "img_1 logo_img img_2"
     "bio_script circle_img tech_specs"
     "bio_script catalogue catalougue"
     "footer footer footer";
 }
+.heading_txt {
+    grid-row: heading_txt;
+    background-color: blanchedalmond;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .header {
     grid-area: header;
@@ -25,8 +35,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    /* justify-content: center; */
+    float: right;    
 }
 
 .footer {

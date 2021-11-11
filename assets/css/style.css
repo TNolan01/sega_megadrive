@@ -19,29 +19,27 @@
 }
 .heading_txt {
     grid-row: heading_txt;
-    background-color: blanchedalmond;
-    height: 200px;
-    display: flex;
+    background-color: black;
+    height: 3rem;
+
     align-items: center;
     justify-content: center;
 }
-
-
-
 .header {
     grid-area: header;
     background-color: black;
-    height: 200px
+    height: 3rem;
     width: 100%;
-    display: flex;
+    display: flex
     align-items: center;
-    /* justify-content: center; */
     float: right;    
 }
 
 .footer {
     grid-area: footer;
-    background-color: blueviolet;
+    background-color: black;
+    height: 3rem;
+    width: 100%;
 }
 
 .logo_img {
@@ -101,11 +99,19 @@
     color: rgb(109, 175, 230); 
 }
 
- #header_txt {
-    margin-inline-start: auto;
-    font-size: xx-large;
-    color: silver;
-    text-decoration: none;
-    font-family: monospace, sans-serif;
-}
+ #heading_txt {
+     object-fit: cover;
+ }
  
+ #socials li {
+    list-style-type: none;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+ }
+
+#socials a {
+    color :rgb(109, 175, 230);
+    text-decoration: none;
+    font-size: x-large;
+}

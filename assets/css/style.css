@@ -1,8 +1,14 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Press+Start+2P&family=Space+Mono&family=VT323&display=swap');
+
+
+/* Container Structure */
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.25fr 0.5fr 1fr 1fr 0.25fr;
-    gap: 0px 0px;
+    gap: 0.25em 0.25em;
     grid-auto-flow: row;
     grid-template-areas: 
     "header header header"
@@ -15,6 +21,12 @@
 .header {
     grid-area: header;
     background-color: black;
+    height: 200px
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .footer {
@@ -29,7 +41,7 @@
 
 .circle_img {
     grid-area: circle_img;
-    background-color: chartreuse;
+    background-color: black;
 }
 
 .bio_script {
@@ -56,3 +68,34 @@
     grid-area: img_1;
     background-color: blue;
 }
+
+/* Header and Menu Styling */
+#menu li {
+    float:right;
+    list-style-type: none;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+       
+  }
+#menu a {
+    float: left;
+    font-size: x-large;
+    text-decoration: none;
+    color: silver;
+    font-family: 'VT323', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu a:hover  {
+    border-bottom: 1px solid #f1e3e3;
+    color: rgb(109, 175, 230); 
+}
+
+ #header_txt {
+    margin-inline-start: auto;
+    font-size: xx-large;
+    color: silver;
+    text-decoration: none;
+    font-family: monospace, sans-serif;
+}
+ 

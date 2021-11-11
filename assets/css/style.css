@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 0.5fr 1fr 1fr 0.25fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+    "header header header"
+    "img_1 logo_img img_2"
+    "bio_script circle_img tech_specs"
+    "bio_script catalogue catalougue"
+    "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: black;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: blueviolet;
+}
+
+.logo_img {
+    grid-area: logo_img;
+    background-color: brown;
+}
+
+.circle_img {
+    grid-area: circle_img;
+    background-color: chartreuse;
+}
+
+.bio_script {
+    grid-area: bio_script;
+    background-color: cyan;
+}
+
+.tech_specs {
+    grid-area: tech_specs;
+    background-color: darkmagenta;
+}
+
+.catalogue {
+    grid-area: catalogue;
+    background-color: darkred;
+}
+
+.img_2 {
+    grid-area: img_2;
+    background-color: deeppink;
+}
+
+.img_1 {
+    grid-area: img_1;
+    background-color: blue;
+}

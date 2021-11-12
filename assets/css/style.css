@@ -25,15 +25,20 @@
     background-color: black;
     clear: both;
     text-align: center;
+    top: 0;
+    position: fixed;
+    width: 100%;
    }
 
 .footer {
     grid-area: footer;
     background-color: black;
     clear: both;
-    float: left; 
     padding: 20px 0 0;
     text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .logo_img {
@@ -77,8 +82,10 @@
 
 /* Header and Menu Styling */
 #menu li {
+    margin: 30px;
+    padding-top: 30px;
     display: inline;
-    margin: 25px;
+    align-items: center;
 }
 #menu i {
     font-size: x-large;
@@ -121,3 +128,59 @@
     margin: auto;
 }
 
+/* Gallery Page */
+
+#gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+ }
+
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+    filter: grayscale(100%);
+    transition: filter 2s;
+ }
+ #gallery img:hover {
+    filter:none;
+ }
+
+/* Media Querys for smaller screens */
+
+ @media (max-width: 1200px) {
+    #gallery {
+     -moz-column-count:    4;
+     -webkit-column-count: 4;
+     column-count:         4;
+    }
+}
+
+ @media (max-width: 1000px) {
+    #gallery {
+     -moz-column-count:    3;
+     -webkit-column-count: 3;
+     column-count:         3;
+    }
+ }
+
+ @media (max-width: 800px) {
+    #gallery {
+     -moz-column-count:    2;
+     -webkit-column-count: 2;
+     column-count:         2;
+    }
+ }
+
+ @media (max-width: 400px) {
+    #gallery {
+     -moz-column-count:    1;
+     -webkit-column-count: 1;
+     column-count:         1;
+    }
+ }

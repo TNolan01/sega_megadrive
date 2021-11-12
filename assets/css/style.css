@@ -32,8 +32,7 @@
     grid-area: footer;
     background-color: black;
     clear: both;
-    float: left;
-    margin: 30px 30px 0; 
+    float: left; 
     padding: 20px 0 0;
     text-align: center;
 }
@@ -106,3 +105,8 @@
     color: rgb(156, 134, 9);
 }
 
+/* GIF DIV */
+
+.img_1 {
+    border: 4px solid rgb(156, 134, 9);
+}

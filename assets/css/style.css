@@ -69,7 +69,13 @@
  #menu i:hover  {
     border-bottom: 1px solid #f1e3e3;
     color: rgb(156, 134, 9);
- }
+}
+
+#menu a {
+    font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    color: whitesmoke;
+}
 
 .footer li {
     margin-right: 50px;

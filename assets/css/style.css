@@ -126,9 +126,8 @@
     width: 100%;
     background-color: black;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
-
 #shop_text h1 {
     font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
@@ -190,10 +189,11 @@
     display: block;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 600px){
+@media only screen and (max-width: 640px){
     .header a {
         float: none;
         display: block;
+        height: 10px;
         }
  
     #gallery {
@@ -201,7 +201,85 @@
         line-height: 0;
         column-count: 2;
         column-gap: 0;
-        margin-top: 5rem;
+        margin-top: 12rem;
         margin-bottom: 6rem;
         }   
+    #heading_txt {
+        font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+        text-align: center;
+        margin-top: 12rem;
+        width: 100%;
+        }
+    #shop_text {
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        margin-top: 15rem;
+        }    
+    #gold_axe_gif {
+        border-top: 1rem;
+        margin-top: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 200px;
+        max-height: 200px;
+        text-align: center;
+        }
+    
+     .form-section {
+        float: none;
+        display: block;
+        font-size: small;
+        margin-bottom: 5rem;
+     }
+        
+    
+ }
+
+
+@media only screen and (max-width: 400px){
+    .header a {
+        float: none;
+        display: block;
+        height: 10px;
+        }
+ 
+    #gallery {
+        clear: both;
+        line-height: 0;
+        column-count: 1;
+        column-gap: 0;
+        margin-top: 12rem;
+        margin-bottom: 6rem;
+        }   
+    #heading_txt {
+        font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: x-small;
+        text-align: center;
+        margin-top: 13rem;
+        width: 100%;
+        }
+    #heading_txt img {
+        max-width: 150px;
+    }
+
+    #shop_text h1 {
+        font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+        color: whitesmoke;
+    }
+    #shop_text p {
+        font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: x-small;
+        color: whitesmoke;
+    }
+
+    .form-section {
+        float: none;
+        display: block;
+        font-size: x-small;
+        margin-bottom: 7rem;
+     }
 }

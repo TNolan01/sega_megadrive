@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Press+Start+2P&family=Space+Mono&family=VT323&display=swap');
 
+body {
+    background-image: url("/assets/images/grey_white.jpg");
+}
 
 /* Container Structure */
 .container {
@@ -23,12 +26,13 @@
 }
 
 .header {
-   /*  height: 3rem; */
+    height: auto;
+    margin-top: 1rem; 
     background-color: black;
     clear: both;
     text-align: center;
     top: 0;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -95,20 +99,12 @@
     color: rgb(156, 134, 9);
 }
 
-/* GIF DIV */
-
-.img_1 {
-    border: 4px solid rgb(156, 134, 9);
-}
-
-
-
 /* Gallery Page */
 
 #gallery {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0;
     margin-top: 5rem;
     margin-bottom: 6rem;
@@ -154,10 +150,12 @@
     margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3rem;
     width: 100%;
     max-width: 300px;
     max-height: 300px;
     text-align: center;
+    overflow-y: scroll;
 }
 
 /* Sign up page  */
@@ -195,20 +193,20 @@
         display: block;
         height: 10px;
         }
- 
+     
     #gallery {
         clear: both;
         line-height: 0;
         column-count: 2;
         column-gap: 0;
-        margin-top: 12rem;
+        margin-top: 2rem;
         margin-bottom: 6rem;
         }   
     #heading_txt {
         font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: small;
         text-align: center;
-        margin-top: 12rem;
+        margin-top: 2rem;
         width: 100%;
         }
     #shop_text {
@@ -218,8 +216,8 @@
         margin-top: 15rem;
         }    
     #gold_axe_gif {
-        border-top: 1rem;
-        margin-top: 15rem;
+        border-top: 2rem;
+        margin-top: 2rem;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -234,10 +232,7 @@
         font-size: small;
         margin-bottom: 5rem;
      }
-        
-    
  }
-
 
 @media only screen and (max-width: 400px){
     .header a {
@@ -251,14 +246,14 @@
         line-height: 0;
         column-count: 1;
         column-gap: 0;
-        margin-top: 12rem;
-        margin-bottom: 6rem;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
         }   
     #heading_txt {
         font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: x-small;
         text-align: center;
-        margin-top: 13rem;
+        margin-top: 3rem;
         width: 100%;
         }
     #heading_txt img {

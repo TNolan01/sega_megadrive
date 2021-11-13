@@ -5,13 +5,13 @@
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 0;
 }  
 
 .grid_itm {
     padding-top: 5rem;
     max-width: 300px;
-    border: 3rem;
+    border: 1rem;
     padding-bottom: 5rem;
 }
 .image {
@@ -44,7 +44,13 @@
     margin-top: 4rem;
     width: 100%;
 }
-
+/* Style of grid items */
+.grid_itm {
+    font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    font-size: small;
+}
 
 
 /* Header and Menu Styling */

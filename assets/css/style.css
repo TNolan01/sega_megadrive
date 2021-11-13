@@ -4,30 +4,33 @@
 /* Container Structure */
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     grid-gap: 0;
 }  
 
 .grid_itm {
     padding-top: 5rem;
     max-width: 300px;
-    border: 1rem;
+    margin: 1em;
+    clear: both;
+    text-align: center;
     padding-bottom: 5rem;
+
 }
 .image {
     max-width: 100%;
 }
 
-
 .header {
-    height: 3rem;
+   /*  height: 3rem; */
     background-color: black;
     clear: both;
     text-align: center;
     top: 0;
     position: fixed;
     width: 100%;
-   }
+}
 
 .footer {
     background-color: black;
@@ -51,8 +54,6 @@
     color: whitesmoke;
     font-size: small;
 }
-
-
 /* Header and Menu Styling */
 #menu li {
     margin: 30px;
@@ -66,7 +67,7 @@
     color: rgb(109, 175, 230)
 }
 
- #menu i:hover  {
+#menu i:hover  {
     border-bottom: 1px solid #f1e3e3;
     color: rgb(156, 134, 9);
 }
@@ -105,15 +106,15 @@
 /* Gallery Page */
 
 #gallery {
-clear: both;
-line-height: 0;
-column-count: 4;
-column-gap: 0;
-margin-top: 5rem;
-margin-bottom: 6rem;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
 }
 
- #gallery > img {
+#gallery > img {
     width: 100%;
     height: auto;
     border: solid 2px whitesmoke
@@ -161,9 +162,6 @@ margin-bottom: 6rem;
 }
 
 /* Sign up page  */
-body sign_up.html {
-    background-color: blue;
-}
 
 .form-section {
     background-color: black;
@@ -181,14 +179,29 @@ body sign_up.html {
 
 #submit {
     margin: auto;
-    border-radius: 50%;
+    border-radius: 25%;
     border: 2px solid black;
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 80px;
     text-align: center;
     font-size: auto;
-    background-color: #f16c6b;
+    background-color: red;
     color: #fafafa;
     display: block;
+}
 
+@media only screen and (min-width: 200px) and (max-width: 600px){
+    .header a {
+        float: none;
+        display: block;
+        }
+ 
+    #gallery {
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 0;
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+        }   
 }

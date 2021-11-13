@@ -169,6 +169,7 @@ body sign_up.html {
     background-color: black;
     width: 100%;
     text-align: center;
+    padding-bottom: 5rem;
     margin: auto;
     font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
@@ -178,44 +179,16 @@ body sign_up.html {
     width: 200px;
 }
 
-
-/* .signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-} */
-
-/* .text-input:hover {
-    border-color: #f16c6b;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+#submit {
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 60px;
+    width: 60px;
     text-align: center;
-    font-size: 100%;
+    font-size: auto;
     background-color: #f16c6b;
     color: #fafafa;
     display: block;
+
 }
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
-
-
-
- 
-
- */

@@ -119,6 +119,36 @@ margin-bottom: 6rem;
     border: solid 2px whitesmoke
 }
 
+/* Shop Page */
+
+#shop_text {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#shop_text h1 {
+    font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+#shop_text p {
+    font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: whitesmoke;
+}
+
+/* Sonic GIF */
+#sonic_gif {
+   width: 100%;
+   max-width: 300px;
+   max-height: 300px;
+   text-align: center;
+   margin: auto;
+}
+
 
  
 

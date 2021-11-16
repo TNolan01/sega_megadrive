@@ -8,7 +8,7 @@ body {
 .container {
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     grid-gap: 0;
 }  
 
@@ -191,7 +191,7 @@ body {
     height: 40px;
     width: 80px;
     text-align: center;
-    font-size: auto;
+    /* font-size: auto; */
     background-color: red;
     color: #fafafa;
     display: block;
@@ -240,8 +240,9 @@ body {
         display: block;
         font-size: small;
         margin-bottom: 2rem;
-     }
- }
+      }
+
+}
 /* Media queries for smaller screen size */
 
 @media only screen and (max-width: 400px){ 

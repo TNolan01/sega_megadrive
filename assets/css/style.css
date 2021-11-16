@@ -170,12 +170,13 @@ body {
 
 .form-section {
     background-color: black;
-    width: 100%;
     text-align: center;
     padding-bottom: 1rem; 
-    margin: 2rem;
+    margin-bottom: 4rem; 
     font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10%;
 }
 
 #email {

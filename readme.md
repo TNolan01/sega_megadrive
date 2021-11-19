@@ -82,3 +82,56 @@ The site was tested on the folowing devices which have varying screen sizes.
 * Motorola Moto 8 - phone
 * Motorola Moto 10 - phone
 * Amazon Fire Tablet 8"
+
+Media queires were created and altered many times to get the right amount data to display on the appropriate sized screen.
+
+**Validator Testing:**
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftnolan01.github.io%2Fsega_megadrive%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftnolan01.github.io%2Fsega_megadrive%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Deployment:
+
+This was coded through GitPod and deployed to GitHub pages. An outline of the deployment procedure is as follows:
+* In the GitHub repository select the Settings tab on the bar, it is the last item.
+* In the drop-down menu on left select the 'Pages', this is presently 2nd from bottom on the menu. 
+* In the 'Source' section at the top of the 'GitHub Pages' select Branch as 'Main'.
+* A green box should appear above the 'Source' section with an refreshed ribbon to indicate the site has been successfully deployed and showing the address to which it is published.
+
+![GitHub](assets/images/read_me_images/github.png)
+
+Live Link : https://tnolan01.github.io/sega_megadrive/index.html
+
+## Credits:
+
+Coded with help from:
+* DesignCourse: Youtube channel which I watched to study CSS Grid. https://youtu.be/bam83Xv4VMA
+* W3 Schools: Search guide on various topics. https://www.w3schools.com/css/
+* Code Institute 'Loving Running' Project: Used the gallery html structure as demostrated in Loving Running, also used the associated Read Me file as a guide.
+* A little help from Slack.
+
+#### Content:
+* Text on the index_html based on Wikipedia based under a search for 'console war' https://en.wikipedia.org/wiki/Console_war.
+* Images from index_html are from wikipedia.
+* The book 'Console Wars' by Blake J Harris must also be referenced as its largely where the Wikipedia content comes from. https://en.wikipedia.org/wiki/Console_Wars_(book).
+* All the images in the gallery were sourced from Cover Century. https://www.covercentury.com/index.php?p=genesiscovers
+* I used two GIF's from Tenor.com. https://tenor.com/search/sega-gifs
+
+#### Styling:
+* Icon images on header and footer are from Font Awesome. https://fontawesome.com/
+* I aslo used an import font, Orbitron, from Google Fonts. https://fonts.google.com/
+* The 'Sega Mega Drive' logo at the top of the index_html is from Wikipedia, I have altered it slightly using MS Paint.
+
+## Conclusion:
+* There are improvements which could be made to the site in terms of additional uer interaction.
+* I am not yet familar with image/picture compression but the images that form thr gallery.html could possible be compressed.
+* I would approach the design and layout differently on next project. This project was very much designed as it evolved and the IDE is not the correct place for this. 
+* I would also need to increase the number of 'commits' on future projects. This is aspect of the procedure which I did not fully appreciate.
+
+
+
+
+### Please Note : All content used is for the non-commercial site, as part of an educational project and not for any commercial or financial benefit.
+

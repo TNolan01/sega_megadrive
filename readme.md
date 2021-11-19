@@ -51,10 +51,34 @@ The header and footer are identical across all pages and designed to be modern a
 ![header and footer](assets/images/read_me_images/footer_header.png)
 
 
-## Design Scope:
+## Design Stylings:
 
 The background is a white and light grey sqauare pattern which is based on the color scheme used in some of the orignal game packaging. The background is light as to not distract from the items on the page and give the site a cleaner, modern appearance.
 
 The header and footer are black to clearly distinguish them on the back ground. The icons and text are a blue color, rgb(109, 175, 230). This is taken from the blue in the Mega Drive logo. The silver in the logo was too light a color to use.
 
-The color of Header and Footer icons change color on 'hover' , that color is rgb(156, 134, 9), this is a gold color and is abstract to the blue for differentiation purposes. The gold color was inspired by the gold text on the '16 Bit' Logo which was on the casing of the MK1 Mega Drive case.
+The color of Header and Footer icons change color on 'hover' , that color is rgb(156, 134, 9), this is a gold color and is abstract to the blue for differentiation purposes. The gold color was inspired by the gold text on the '16 Bit' Logo which was on the emblazed across the front casing of the MK1 Mega Drive case and Genesis.
+
+I have used the font Orbitron from Google Fonts. Originally I looked for a 'retro' 80's computer style but these fonts appeared clumsy and difficult to read on smaller screens. Orbitron and the shape but with a modern finish.
+
+![font](assets/images/read_me_images/font_style.png)
+
+The shape of the form is a silhouette of the Megadrive 2 console. The red submit button is based on the 'power' and 'reset' buttons on that console.
+
+![MegaDrive 2](assets/images/md2.png)
+
+## Testing:
+
+I have tested the site on Google Chrome, Microsoft Edge, AVG Secure Browser, Safari and Amazon Silk.
+
+I have not had any issues across these browers with stylings or access.
+
+The site was tested on the folowing devices which have varying screen sizes.
+* Windows 10 PC with 27" LCD Screen
+* Windows 10 PC with 24" LCD Screen
+* Samsung Galaxy TAB2 10.1" Screen
+* Apple IPAD 2 9.7" Screen
+* Apple IPhone 8 - phone
+* Motorola Moto 8 - phone
+* Motorola Moto 10 - phone
+* Amazon Fire Tablet 8"

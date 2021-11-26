@@ -30,6 +30,7 @@ background-image: url("grey_white.png")
     background-color: black;
     clear: both;
     text-align: center;
+    padding: 0.5em;
     top: 0;
     width: 100%;
 }
@@ -111,6 +112,7 @@ background-image: url("grey_white.png")
     color :rgb(109, 175, 230);
     text-decoration: none;
     font-size: xx-large;
+    padding: 1em;
 }
 
 .footer i:hover  {
@@ -235,18 +237,21 @@ background-image: url("grey_white.png")
         margin-top: 2rem;
         margin-bottom: 6rem;
     }  
-    heading_txt h1 { /* For index.hmtl */
+
+    #heading_txt h1 { /* For index.hmtl */
         font-size: small;
         text-align: center;
         margin-top: 1rem; 
         max-width: 100%;
     }  
+
     #shop_text { /* For shop.hmtl */
         width: 100%;
         background-color: black;
         text-align: center;
         margin-top: 2rem;
     }    
+
     #gold_axe_gif { /* For sign_up.hmtl */
         border-top: 2rem;
         margin-top: 2rem;
@@ -305,8 +310,7 @@ background-image: url("grey_white.png")
     .footer a { 
         float: none;
         display: block;
-        height: 10px;
-        padding: 1em;
+        height: 60px;
         margin-right: 25px;
     }
     

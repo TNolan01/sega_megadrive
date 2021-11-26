@@ -194,7 +194,6 @@ background-image: url("grey_white.png")
     height: 40px;
     width: 80px;
     text-align: center;
-    /* font-size: auto; */
     background-color: red;
     color: #fafafa;
     display: block;
@@ -206,54 +205,6 @@ background-image: url("grey_white.png")
     text-align: center;
 }
 
-
-/* xxxxxxxxxxxxx Media Queries XXXXXXXXXXXX */
-@media only screen and (max-width: 640px){
-    .header a {
-        float: none;
-        display: block;
-        height: 10px;
-        }
-     
-    #gallery { /* For gallery.hmtl */
-        clear: both;
-        line-height: 0;
-        column-count: 2;
-        column-gap: 0;
-        margin-top: 2rem;
-        margin-bottom: 6rem;
-        }   
-    #heading_txt h1 { /* For index.hmtl */
-        font-size: small;
-        text-align: center;
-        margin-top: 1rem; 
-        max-width: 100%;
-        }  
-    #shop_text { /* For shop.hmtl */
-        width: 100%;
-        background-color: black;
-        text-align: center;
-        margin-top: 2rem;
-        }    
-    #gold_axe_gif { /* For sign_up.hmtl */
-        border-top: 2rem;
-        margin-top: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        max-width: 200px;
-        max-height: 200px;
-        text-align: center;
-        }
-    
-     .form-section { /* For sign_up.hmtl */
-        float: none;
-        display: block;
-        font-size: small;
-        margin-bottom: 2rem;
-      }
-
-}
 /* Media queries for smaller screen size */
 
 @media only screen and (max-width: 700px){ 
@@ -264,14 +215,63 @@ background-image: url("grey_white.png")
         column-gap: 0;
         margin-top: 1rem;
         margin-bottom: 5rem;
-        } 
+    } 
+
+}
+
+/* xxxxxxxxxxxxx Media Queries XXXXXXXXXXXX */
+@media only screen and (max-width: 640px){
+    .header a {
+        float: none;
+        display: block;
+        height: 10px;
+    }
+     
+    #gallery { /* For gallery.hmtl */
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+        column-gap: 0;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+    }  
+    heading_txt h1 { /* For index.hmtl */
+        font-size: small;
+        text-align: center;
+        margin-top: 1rem; 
+        max-width: 100%;
+    }  
+    #shop_text { /* For shop.hmtl */
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        margin-top: 2rem;
+    }    
+    #gold_axe_gif { /* For sign_up.hmtl */
+        border-top: 2rem;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 200px;
+        max-height: 200px;
+        text-align: center;
+    }
+    
+    .form-section { /* For sign_up.hmtl */
+        float: none;
+        display: block;
+        font-size: small;
+        margin-bottom: 2rem;
+    } 
+
 }
 
 @media only screen and (max-width: 400px){ 
     .header a { 
         float: none;
         display: block;
-        height: 10px;
+        height: 20px;
         }
     #heading_txt img { /* For index.hmtl */
         max-width: 100%;
@@ -300,6 +300,15 @@ background-image: url("grey_white.png")
         display: block;
         font-size: x-small;
         margin-bottom: 2rem;
-     }
-  
+    }
+
+    .footer a { 
+        float: none;
+        display: block;
+        height: 10px;
+        padding: 1em;
+        margin-right: 25px;
+    }
+    
+    
 }

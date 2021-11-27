@@ -23,6 +23,7 @@ The site consists of the following sections.
  - The Gallery Page - gallery.html
  - Sign-up Page - sign_up.html
  - Shop Page - shop_html
+ - Thank You Page - thank_you.html
  - Header Section
  - Footer Section
 
@@ -31,25 +32,36 @@ The Load Page, index.html, guides you into the various aspects of the website. T
 
 ![load page](assets/images/read_me_images/load_page.png)
 
+
 **The History Page**:
 The History Page is a CSS Grid structure containing grid items which each contain text with an associated image to detail the history and life cycle of the console. The principal idea is to make a compelling argument for the historical importance of this console in creating one of the largest entertainment industries in the world.
 
 ![main page](assets/images/read_me_images/home_page.png)
+
 
 **The Gallery**:
 The Gallery Page is a collection of images of the games associated with the Mega Drive / Genesis platform. These images make a vibrant collage and on their own are visually appealing. Such images can invoke interest and nostalgia.
 
 ![gallery](assets/images/read_me_images/gallery_page.png)
 
+
 **The Sign Up Page**:
 This is to gather email contact details to use to send 'newsletters' potential followers, fans and customers. The page contains a GIF image from a popular game as part of a simple quiz to entice viewers to sign up. 
 
 ![signup page](assets/images/read_me_images/signup_page.png)
 
+
 **The Shop Page**:
 At present this page is not completed or structured but it offers a platform for the sale of game related merchandise of all types from clothing to games and accessories to consoles.
 
 ![shop page](assets/images/read_me_images/shop_page.png)
+
+
+**Thank You Page**:
+The thank you page displays once the user has filled out the sign up form.
+
+![thank you page](assets/images/read_me_images/thank_you_bg.png)
+
 
 **The Header and Footer**:
 The header and footer are identical across all pages and designed to be modern and non-distracting but visually prominent so as to be borders to the particular page.

@@ -229,8 +229,7 @@ background-image: url("grey_white.png")
     font-size: large;
     color: black;
     text-align: center;
-    content: contain;
-
+    
 }
 
 #heading_txt h1 {
@@ -409,8 +408,6 @@ background-image: url("grey_white.png")
         font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: black;
         text-align: center;
-        content: contain;
-    
     }
 
     #main_page h2 {

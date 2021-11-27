@@ -18,15 +18,21 @@ In recent years a market has developed retro and vintage technology with the you
 
 The site consists of the following sections.
 
- - The Main Page - index.hmtl
+ - The Load Page - index.hmtl
+ - The History Page - history.html
  - The Gallery Page - gallery.html
  - Sign-up Page - sign_up.html
  - Shop Page - shop_html
  - Header Section
  - Footer Section
 
-**The Main Page**:
-The Main Page is a CSS Grid structure containing grid items which each contain text with an associated image to detail the history and life cycle of the console. The principal idea is to make a compelling argument for the historical importance of this console in creating one of the largest entertainment industries in the world.
+**The Load Page**:
+The Load Page, index.html, guides you into the various aspects of the website. The colour scheme is dark to match styling of the SEGA's packaging.
+
+![load page](assets/images/read_me_images/load_page.png)
+
+**The History Page**:
+The History Page is a CSS Grid structure containing grid items which each contain text with an associated image to detail the history and life cycle of the console. The principal idea is to make a compelling argument for the historical importance of this console in creating one of the largest entertainment industries in the world.
 
 ![main page](assets/images/read_me_images/home_page.png)
 
@@ -110,14 +116,15 @@ Coded with help from:
 * DesignCourse: Youtube channel which I watched to study CSS Grid. https://youtu.be/bam83Xv4VMA
 * W3 Schools: Search guide on various topics. https://www.w3schools.com/css/
 * Code Institute 'Loving Running' Project: Used the gallery html structure as demostrated in Loving Running, also used the associated Read Me file as a guide.
-* A little help from Slack.
+* A little help from Slack searches.
 
 #### Content:
 * Text on the index_html based on Wikipedia based under a search for 'console war' https://en.wikipedia.org/wiki/Console_war.
 * Images from index_html are from wikipedia.
 * The book 'Console Wars' by Blake J Harris must also be referenced as its largely where the Wikipedia content comes from. https://en.wikipedia.org/wiki/Console_Wars_(book).
-* All the images in the gallery were sourced from Cover Century. https://www.covercentury.com/index.php?p=genesiscovers
+* All the images in the gallery were sourced from Cover Century. https://www.covercentury.com/index.php?p=genesiscovers.
 * I used two GIF's from Tenor.com. https://tenor.com/search/sega-gifs
+* The background image on the index.html came from https://images7.alphacoders.com/866/thumb-1920-866932.png.
 
 #### Styling:
 * Icon images on header and footer are from Font Awesome. https://fontawesome.com/
@@ -126,7 +133,6 @@ Coded with help from:
 
 ## Conclusion:
 * There are improvements which could be made to the site in terms of additional uer interaction.
-* I am not yet familar with image/picture compression but the images that form thr gallery.html could possible be compressed.
 * I would approach the design and layout differently on next project. This project was very much designed as it evolved and the IDE is not the correct place for this. 
 * I would also need to increase the number of 'commits' on future projects. This is aspect of the procedure which I did not fully appreciate.
 

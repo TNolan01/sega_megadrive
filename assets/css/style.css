@@ -42,8 +42,10 @@ background-image: url("grey_white.png")
     bottom: 0;
     padding: 0.5em;
     width: 100%;
-    position: fixed;
+   /*  position: fixed; */
     height: auto;
+    direction: rtl;
+    margin-top: 10rem;
 }
 
 /* index.html  */
@@ -254,6 +256,18 @@ background-image: url("grey_white.png")
 
 #thanks_text {
     color: #fafafa;
+    font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20rem;
+    background-color: darkgray;
+}
+
+#thanks_text p {
+    font-size: larger;
+    background-color: darkgray;
 }
 
 /* Media queries for smaller screen size */
@@ -412,6 +426,23 @@ background-image: url("grey_white.png")
         align-items: center;
     }
 
+    #thanks_text {
+        color: #fafafa;
+        font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+        background-color: darkgray;
+    }
+    
+    #thanks_text p {
+        font-size: large;
+    }
 
-
+    #thanks_text h1 {
+        font-size: larger;
+    }
 }

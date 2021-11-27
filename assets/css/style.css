@@ -48,9 +48,10 @@ background-image: url("grey_white.png")
     margin-top: 10rem;
 }
 
-/* index.html  */
+/* history.html  */
 #heading_txt {
     font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -64,10 +65,7 @@ background-image: url("grey_white.png")
     height: auto;
 }
 
-#heading_txt h1 {
-    margin-bottom: 1rem;
-    color: #fafafa;
-}
+
 
 /* Sonic GIF */
 #sonic_gif {
@@ -224,6 +222,7 @@ background-image: url("grey_white.png")
     border-radius: 10%;
     background-color: #7dbdf8;
     opacity: 70%;
+    margin-top: 3rem;
     margin-bottom: 5rem;
     font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
@@ -231,6 +230,23 @@ background-image: url("grey_white.png")
     text-align: center;
     
 }
+
+#head_txt h1 {
+    margin-bottom: 1rem;
+    color: #fafafa;
+    font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+#head_txt {
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;
+    animation-name: logo_zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
 
 #heading_txt h1 {
     font-size: 30px;
@@ -272,8 +288,8 @@ background-image: url("grey_white.png")
 /* Media queries for smaller screen size */
 @media only screen and (max-width: 860px){
     #heading_txt img {
-            max-width: 85%;
-            height: auto;
+        max-width: 85%;
+        height: auto;
     }
     
     #heading_txt h1{
@@ -282,6 +298,18 @@ background-image: url("grey_white.png")
         margin-top: 1rem; 
         max-width: 100%;
     }
+
+    #head_txt img {
+        max-width: 85%;
+        height: auto;
+    }
+    
+    #head_txt h1{
+        font-size: large;
+        text-align: center;
+        margin-top: 1rem; 
+        max-width: 100%;
+
 
 }
 
@@ -364,9 +392,9 @@ background-image: url("grey_white.png")
         display: block;
         height: 20px;
     }
-    #heading_txt img { 
+  /*   #heading_txt img { 
         max-width: 100%;
-        height: auto;
+        height: auto; */
     }
     #gallery { 
         clear: both;
@@ -396,6 +424,10 @@ background-image: url("grey_white.png")
     #heading_txt img {
         max-width: 85%;
         height: auto;
+    }
+
+    #heading_txt h1 {
+        font-size: medium;
     }
 
     #main_page {

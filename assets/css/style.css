@@ -2,7 +2,6 @@
 
 body {
 background-image: url("grey_white.png")
-
 }
 
 /* Container Structure */
@@ -21,6 +20,7 @@ background-image: url("grey_white.png")
     padding-bottom: 1rem;
 
 }
+
 .image {
     max-width: 100%;
 }
@@ -43,7 +43,8 @@ background-image: url("grey_white.png")
     padding: 0.5em;
     width: 100%;
 }
-/* Heading */
+
+/* index.html  */
 #heading_txt {
     font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -53,14 +54,17 @@ background-image: url("grey_white.png")
     height: 100%;
     object-fit: contain;
 }
-#heading_txt img { /* For index.hmtl */
+
+#heading_txt img { 
     max-width: 100%;
     height: auto;
 }
 
 #heading_txt h1 {
     margin-bottom: 1rem;
+    color: #fafafa;
 }
+
 /* Sonic GIF */
 #sonic_gif {
     width: 100%;
@@ -77,7 +81,9 @@ background-image: url("grey_white.png")
     background-color: rgba(0, 0, 0, 0.6);
     color: whitesmoke;
     font-size: small;
+
 }
+
 /* Header and Menu Styling */
 #menu li {
     margin: 30px;
@@ -85,6 +91,7 @@ background-image: url("grey_white.png")
     display: inline;
     align-items: center;
 }
+
 #menu i {
     font-size: x-large;
     text-decoration: none;
@@ -103,10 +110,9 @@ background-image: url("grey_white.png")
 }
 
 .footer li {
-    /* margin-right: 50px; */
     display: inline;
     align-items: center;
- }
+}
 
 .footer i {
     color :rgb(109, 175, 230);
@@ -121,7 +127,6 @@ background-image: url("grey_white.png")
 }
 
 /* Gallery Page xxxxxxxxxx gallery_html */
-
 #gallery {
     clear: both;
     line-height: 0;
@@ -138,7 +143,6 @@ background-image: url("grey_white.png")
 }
 
 /* Shop Page xxxxxxxx shop_html */
-
 #shop_text {
     width: 100%;
     background-color: black;
@@ -200,6 +204,7 @@ background-image: url("grey_white.png")
     color: #fafafa;
     display: block;
 }
+
 #join_up {
     font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
@@ -208,7 +213,6 @@ background-image: url("grey_white.png")
 }
 
 /* index.html  xxxxxxxxxxxxxx */
-
 #main_page {
     width: 100%;
     height: auto;
@@ -224,6 +228,7 @@ background-image: url("grey_white.png")
     content: contain;
 
 }
+
 #heading_txt h1 {
     font-size: 30px;
 }
@@ -244,7 +249,6 @@ background-image: url("grey_white.png")
 }
 
 /* Media queries for smaller screen size */
-
 @media only screen and (max-width: 860px){
     #heading_txt img {
             max-width: 85%;
@@ -262,7 +266,7 @@ background-image: url("grey_white.png")
 
 
 @media only screen and (max-width: 700px){ 
-    #gallery { /* For gallery.hmtl */
+    #gallery { 
         clear: both;
         line-height: 0;
         column-count: 1;
@@ -272,6 +276,7 @@ background-image: url("grey_white.png")
     } 
 
 }
+
 
 @media only screen and (max-width: 640px){
     
@@ -288,7 +293,7 @@ background-image: url("grey_white.png")
         align-items: center; 
     }
      
-    #gallery { /* For gallery.hmtl */
+    #gallery { 
         clear: both;
         line-height: 0;
         column-count: 1;
@@ -297,21 +302,21 @@ background-image: url("grey_white.png")
         margin-bottom: 6rem;
     }  
 
-    #heading_txt h1 { /* For index.hmtl */
+    #heading_txt h1 { 
         font-size: small;
         text-align: center;
         margin-top: 1rem; 
         max-width: 100%;
     }  
 
-    #shop_text { /* For shop.hmtl */
+    #shop_text { 
         width: 100%;
         background-color: black;
         text-align: center;
         margin-top: 2rem;
     }    
 
-    #gold_axe_gif { /* For sign_up.hmtl */
+    #gold_axe_gif {
         border-top: 2rem;
         margin-top: 2rem;
         margin-left: auto;
@@ -322,7 +327,7 @@ background-image: url("grey_white.png")
         text-align: center;
     }
     
-    .form-section { /* For sign_up.hmtl */
+    .form-section { 
         float: none;
         display: block;
         font-size: small;
@@ -331,17 +336,18 @@ background-image: url("grey_white.png")
 
 }
 
+
 @media only screen and (max-width: 430px){ 
     .header a { 
         float: none;
         display: block;
         height: 20px;
     }
-    #heading_txt img { /* For index.hmtl */
+    #heading_txt img { 
         max-width: 100%;
         height: auto;
     }
-    #gallery { /* For gallery.hmtl */
+    #gallery { 
         clear: both;
         line-height: 0;
         column-count: 1;
@@ -349,17 +355,17 @@ background-image: url("grey_white.png")
         margin-top: 1rem;
         margin-bottom: 5rem;
         } 
-    #shop_text h1 {  /* For shop.hmtl */
+    #shop_text h1 {  
         font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: small;
         color: whitesmoke;
     }
-    #shop_text p {  /* For shop.hmtl */
+    #shop_text p { 
         font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: x-small;
         color: whitesmoke;
     }
-    .form-section { /* For sign_up.hmtl */
+    .form-section { 
         float: none;
         display: block;
         font-size: x-small;

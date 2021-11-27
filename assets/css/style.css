@@ -103,7 +103,7 @@ background-image: url("grey_white.png")
 }
 
 .footer li {
-    margin-right: 50px;
+    /* margin-right: 50px; */
     display: inline;
     align-items: center;
  }
@@ -245,6 +245,22 @@ background-image: url("grey_white.png")
 
 /* Media queries for smaller screen size */
 
+@media only screen and (max-width: 860px){
+    #heading_txt img {
+            max-width: 85%;
+            height: auto;
+    }
+    
+    #heading_txt h1{
+        font-size: large;
+        text-align: center;
+        margin-top: 1rem; 
+        max-width: 100%;
+    }
+
+}
+
+
 @media only screen and (max-width: 700px){ 
     #gallery { /* For gallery.hmtl */
         clear: both;
@@ -257,18 +273,25 @@ background-image: url("grey_white.png")
 
 }
 
-/* xxxxxxxxxxxxx Media Queries XXXXXXXXXXXX */
 @media only screen and (max-width: 640px){
-    .header a {
-        float: none;
-        display: block;
-        height: 10px;
+    
+    .footer li {
+        display: inline;
+        align-items: center;
+    }
+
+
+    #menu li {
+        margin: 2em;
+        padding-top: 1rem;
+        display: inline;
+        align-items: center; 
     }
      
     #gallery { /* For gallery.hmtl */
         clear: both;
         line-height: 0;
-        column-count: 2;
+        column-count: 1;
         column-gap: 0;
         margin-top: 2rem;
         margin-bottom: 6rem;
@@ -308,12 +331,12 @@ background-image: url("grey_white.png")
 
 }
 
-@media only screen and (max-width: 400px){ 
+@media only screen and (max-width: 430px){ 
     .header a { 
         float: none;
         display: block;
         height: 20px;
-        }
+    }
     #heading_txt img { /* For index.hmtl */
         max-width: 100%;
         height: auto;
@@ -343,12 +366,38 @@ background-image: url("grey_white.png")
         margin-bottom: 2rem;
     }
 
-    .footer a { 
-        float: none;
-        display: block;
-        height: 60px;
-        margin-right: 25px;
+    #heading_txt img {
+        max-width: 85%;
+        height: auto;
     }
+
+    #main_page {
+        height: auto;
+        border: black solid 2px;
+        border-radius: 10%;
+        background-color: #7dbdf8;
+        opacity: 70%;
+        margin-bottom: 3rem;
+        font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-align: center;
+        content: contain;
     
-    
+    }
+
+    #main_page h2 {
+        font-size: smaller;
+    }
+
+    #main_page h3 {
+        font-size: smaller;
+    }
+
+    .footer li {
+        display: inline;
+        align-items: center;
+    }
+
+
+
 }

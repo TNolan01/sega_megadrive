@@ -42,6 +42,8 @@ background-image: url("grey_white.png")
     bottom: 0;
     padding: 0.5em;
     width: 100%;
+    position: fixed;
+    height: auto;
 }
 
 /* index.html  */
@@ -246,6 +248,12 @@ background-image: url("grey_white.png")
     to{
         transform: scale(1.2);
     }
+}
+
+/* thank_you.hmtl   */
+
+#thanks_text {
+    color: #fafafa;
 }
 
 /* Media queries for smaller screen size */

@@ -2,7 +2,7 @@
 
 ![logo](assets/images/main_logo.png)
 
-<h1>The MEGADRIVE
+[The MEGADRIVE.COM](https://tnolan01.github.io/sega_megadrive/index.html)
 
 ## Project Scope:
 
@@ -109,6 +109,13 @@ Media queires were created and altered many times to get the right amount data t
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftnolan01.github.io%2Fsega_megadrive%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftnolan01.github.io%2Fsega_megadrive%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Web.Dev Check-up:
+I checked the performance of the site through the web.dev website. Image of details below. 
+
+![web dev](assets/images/read_me_images/web_dev.png)
+
+
 
 ## Deployment:
 

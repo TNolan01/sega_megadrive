@@ -426,7 +426,9 @@ margin: 0;
     }
 
     #heading_txt h1 {
-        font-size: medium;
+        font-size: smaller;
+        width: 80%;
+        margin: auto;
     }
 
     #main_page {

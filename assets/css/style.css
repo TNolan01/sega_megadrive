@@ -284,6 +284,26 @@ margin: 0;
     background-color: darkgray;
 }
 
+/* 404.html page */
+
+#error_image {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+
+#error_image img {
+   width: 800px;
+}
+
+#error_image h2 {
+    text-align: center;
+    font-family: Orbitron, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
 /* Media queries for smaller screen size */
 @media only screen and (max-width: 860px){
     #heading_txt img {
@@ -322,6 +342,11 @@ margin: 0;
         margin-top: 1rem;
         margin-bottom: 5rem;
     } 
+
+    #error_image img {
+        width: 650px;
+    }
+     
 
 }
 
@@ -381,6 +406,11 @@ margin: 0;
         font-size: small;
         margin-bottom: 2rem;
     } 
+
+    #error_image img {
+        width: 600px;
+    }
+     
 
 }
 
@@ -478,6 +508,10 @@ margin: 0;
 
     #head_txt h1 {
         font-size: medium;
+    }
+
+    #error_image img {
+        width: 300px;
     }
 }
 }

@@ -4,6 +4,7 @@
 
 [The MEGADRIVE.COM](https://tnolan01.github.io/sega_megadrive/index.html)
 
+
 ## Project Scope:
 
 This site is designed for fans and potential fans of gaming, gaming consoles and retro electronics. The principal aim of the site to atttact and interest fans of the gaming console the SEGA Mega Drive, also known as the Genesis.
@@ -12,6 +13,7 @@ The site hopes to generate feelings of nostalgia from an audience whom would hav
 In recent years a market has developed retro and vintage technology with the youth market being interested in collectables and pop iconography associated with video games and gaming franchises. 
 
 ![mockup](assets/images/read_me_images/readme_heading.png)
+
 
 
 ## Features Of The Site:
@@ -27,43 +29,38 @@ The site consists of the following sections.
  - Header Section
  - Footer Section
 
-**The Load Page**:
-The Load Page, index.html, guides you into the various aspects of the website. The colour scheme is dark to match styling of the SEGA's packaging.
 
-![load page](assets/images/read_me_images/load_page.png)
+### The Load Page:
+The Load Page, index.html, guides you into the various aspects of the website. The colour scheme is dark to match styling of the SEGA's packaging. The page contains a full header and footer and a centre text box with links to pages on the site.
 
+<img src="assets/images/read_me_images/load_page.png" style="float: left; padding-top: 20px; padding-bottom: 40px; "/>
 
-**The History Page**:
-The History Page is a CSS Grid structure containing grid items which each contain text with an associated image to detail the history and life cycle of the console. The principal idea is to make a compelling argument for the historical importance of this console in creating one of the largest entertainment industries in the world.
+### The History Page:
+The History Page use a CSS Grid structure which contains grid items. Each grid item acts as a tile and contains text with an associated image to detail the history and life cycle of the console. The principal idea is to make a compelling argument for the historical importance of this console in creating one of the largest entertainment industries in the world.
 
-![main page](assets/images/read_me_images/home_page.png)
+<img src="assets/images/read_me_images/home_page.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
+### The Gallery:
+The Gallery Page displays a collection of images of the games packaging associated with the cartridges which were used on the Mega Drive / Genesis platform. These images make a vibrant collage and on their own are visually appealing. Such images can invoke interest and nostalgia.
 
-**The Gallery**:
-The Gallery Page is a collection of images of the games associated with the Mega Drive / Genesis platform. These images make a vibrant collage and on their own are visually appealing. Such images can invoke interest and nostalgia.
+<img src="assets/images/read_me_images/gallery_page.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
-![gallery](assets/images/read_me_images/gallery_page.png)
+### The Sign Up Page:
+This is to gather email contact details to use to send 'newsletters' to followers and potential customers. The page contains a GIF image from a popular game as part of a simple quiz to entice viewers to sign up. 
 
+<img src="assets/images/read_me_images/signup_page.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
-**The Sign Up Page**:
-This is to gather email contact details to use to send 'newsletters' potential followers, fans and customers. The page contains a GIF image from a popular game as part of a simple quiz to entice viewers to sign up. 
-
-![signup page](assets/images/read_me_images/signup_page.png)
-
-
-**The Shop Page**:
+### The Shop Page:
 At present this page is not completed or structured but it offers a platform for the sale of game related merchandise of all types from clothing to games and accessories to consoles.
 
-![shop page](assets/images/read_me_images/shop_page.png)
+<img src="assets/images/read_me_images/shop_page.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
+### Thank You Page:
+The thank you page displays once the user has filled out the sign up form. This page displays a different wallpaper which is unique to this page.
 
-**Thank You Page**:
-The thank you page displays once the user has filled out the sign up form.
+<img src="assets/images/read_me_images/thank_you_bg.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
-![thank you page](assets/images/read_me_images/thank_you_bg.png)
-
-
-**The Header and Footer**:
+### The Header and Footer:
 The header and footer are identical across all pages and designed to be modern and non-distracting but visually prominent so as to be borders to the particular page.
 
 ![header and footer](assets/images/read_me_images/footer_header.png)
@@ -71,7 +68,7 @@ The header and footer are identical across all pages and designed to be modern a
 
 ## Design Stylings:
 
-The background is a white and light grey sqauare pattern which is based on the color scheme used in some of the orignal game packaging. The background is light as to not distract from the items on the page and give the site a cleaner, modern appearance.
+The background is a white and light grey square pattern which is based on the color scheme used in some of the orignal game packaging. The background is light as to not distract from the items on the page and give the site a cleaner, modern appearance.
 
 The header and footer are black to clearly distinguish them on the back ground. The icons and text are a blue color, rgb(109, 175, 230). This is taken from the blue in the Mega Drive logo. The silver in the logo was too light a color to use.
 
@@ -89,7 +86,6 @@ The shape of the form is a silhouette of the Megadrive 2 console. The red submit
 
 I have tested the site on Google Chrome, Microsoft Edge, AVG Secure Browser, Safari and Amazon Silk.
 
-I have not had any issues across these browers with stylings or access.
 
 The site was tested on the folowing devices which have varying screen sizes.
 * Windows 10 PC with 27" LCD Screen
@@ -135,6 +131,7 @@ Coded with help from:
 * DesignCourse: Youtube channel which I watched to study CSS Grid. https://youtu.be/bam83Xv4VMA
 * W3 Schools: Search guide on various topics. https://www.w3schools.com/css/
 * Code Institute 'Loving Running' Project: Used the gallery html structure as demostrated in Loving Running, also used the associated Read Me file as a guide.
+* Stack Overflow.
 * A little help from Slack searches.
 
 #### Content:

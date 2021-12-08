@@ -61,7 +61,7 @@ The thank you page displays once the user has filled out the sign up form. This 
 <img src="assets/images/read_me_images/thank_you_bg.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
 ### 404 Page:
-I have created a custom 404 page to match the theme overall theme of the website with a console game related message. Game Over.
+I have created a custom 404 page to match the overall theme console/computer gaming with a 'Game Over' message on a black screen.
 
 <img src="assets/images/read_me_images/404_image.jpg" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
@@ -79,11 +79,11 @@ The header and footer are black to clearly distinguish them on the back ground. 
 
 The color of Header and Footer icons change color on 'hover' , that color is rgb(156, 134, 9), this is a gold color and is abstract to the blue for differentiation purposes. The gold color was inspired by the gold text on the '16 Bit' Logo which was on the emblazed across the front casing of the MK1 Mega Drive case and Genesis.
 
-I have used the font Orbitron from Google Fonts. Originally I looked for a 'retro' 80's computer style but these fonts appeared clumsy and difficult to read on smaller screens. Orbitron and the shape but with a modern finish.
+I have used the font Orbitron from Google Fonts. Originally I looked for a 'retro' 80's computer style but these fonts appeared clumsy and difficult to read on smaller screens. Orbitron has the shape but with a modern finish, cleaner finish.
 
 ![font](assets/images/read_me_images/font_style.png)
 
-The shape of the form is a silhouette of the Megadrive 2 console. The red submit button is based on the 'power' and 'reset' buttons on that console.
+The shape of the form on the sign_up.html is a silhouette of the Megadrive 2 console. The red submit button is based on the 'power' and 'reset' buttons on that console.
 
 ![MegaDrive 2](assets/images/md2.png)
 
@@ -102,7 +102,7 @@ The site was tested on the folowing devices which have varying screen sizes.
 * Motorola Moto 10 - phone
 * Amazon Fire Tablet 8"
 
-Media queires were created and altered many times to get the right amount data to display on the appropriate sized screen.
+Media queires were created and altered many times to get the right amount data to display on the appropriate sized screen. The Apple devices appear to handle some aspects of the css styling but I dont believe there is any compromise in the site as displayed on the Apple devices I tested. 
 
 **Validator Testing:**
 
@@ -115,6 +115,8 @@ Media queires were created and altered many times to get the right amount data t
 I checked the performance of the site through the web.dev website. Image of details below. 
 
 ![web dev](assets/images/read_me_images/web_dev.png)
+
+There was some variance in the performance rating when tested on different devices from a score of 84 to a score of 94. I am not sure the reason for this.
 
 
 
@@ -136,17 +138,17 @@ Live Link : https://tnolan01.github.io/sega_megadrive/index.html
 [Click here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 1. Log in to GitHub and locate the [GitHub Repository] https://github.com/TNolan01/sega_megadrive
-  2. Under the repository name, click "Code".
-  3. To clone the repository using HTTPS. Under "HTTPS" copy the link.
-  4. Go to your local terminal with git installed
-  5. Change the current working directory to the location where you want the cloned directory to be created/located.
-  6. Type `git clone` and then you paste in the URL you copied in Step 3.
+2. Under the repository name, click "Code".
+3. To clone the repository using HTTPS. Under "HTTPS" copy the link.
+4. Go to your local terminal with git installed
+5. Change the current working directory to the location where you want the cloned directory to be created/located.
+6. Type `git clone` and then you paste in the URL you copied in Step 3.
 
   ```
   $ git clone https://github.com/TNolan01/sega_megadrive.git
   ```
 
-  7. Press Enter. Your local clone will be created.
+7. Press Enter. Your local clone will be created.
 
 
 

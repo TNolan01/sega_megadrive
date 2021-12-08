@@ -60,6 +60,11 @@ The thank you page displays once the user has filled out the sign up form. This 
 
 <img src="assets/images/read_me_images/thank_you_bg.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
+### 404 Page:
+I have created a custom 404 page to match the theme overall theme of the website with a console game related message. Game Over.
+
+<img src="assets/images/read_me_images/404_image.jpg" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
+
 ### The Header and Footer:
 The header and footer are identical across all pages and designed to be modern and non-distracting but visually prominent so as to be borders to the particular page.
 
@@ -125,6 +130,27 @@ This was coded through GitPod and deployed to GitHub pages. An outline of the de
 
 Live Link : https://tnolan01.github.io/sega_megadrive/index.html
 
+## Cloning:
+
+
+[Click here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+1. Log in to GitHub and locate the [GitHub Repository] https://github.com/TNolan01/sega_megadrive
+  2. Under the repository name, click "Code".
+  3. To clone the repository using HTTPS. Under "HTTPS" copy the link.
+  4. Go to your local terminal with git installed
+  5. Change the current working directory to the location where you want the cloned directory to be created/located.
+  6. Type `git clone` and then you paste in the URL you copied in Step 3.
+
+  ```
+  $ git clone https://github.com/TNolan01/sega_megadrive.git
+  ```
+
+  7. Press Enter. Your local clone will be created.
+
+
+
+
 ## Credits:
 
 Coded with help from:
@@ -133,6 +159,7 @@ Coded with help from:
 * Code Institute 'Loving Running' Project: Used the gallery html structure as demostrated in Loving Running, also used the associated Read Me file as a guide.
 * Stack Overflow.
 * A little help from Slack searches.
+
 
 #### Content:
 * Text on the index_html based on Wikipedia based under a search for 'console war' https://en.wikipedia.org/wiki/Console_war.

@@ -60,7 +60,8 @@ width: 100%;
     background-color: black;
     clear: both;
     text-align: center;
-    padding: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; 
     top: 0;
     width: 100%;
 }
@@ -70,7 +71,7 @@ width: 100%;
     clear: both;
     text-align: center;
     bottom: 0;
-    padding: 0.5em;
+/*     padding: 0.5em; */
     width: 100%;
     height: auto;
     direction: rtl;
@@ -242,9 +243,9 @@ width: 100%;
     width: 100%;
     margin-top: 5rem;
     text-align: center;
-    animation-name: logo_zoom;
+/*     animation-name: logo_zoom;
     animation-duration: 4s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 
 
@@ -253,9 +254,7 @@ width: 100%;
 }
 
 #heading_txt {
-    animation-name: logo_zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
+/* animation removed */
 }
 
 @keyframes logo_zoom {

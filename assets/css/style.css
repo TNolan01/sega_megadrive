@@ -243,9 +243,6 @@ width: 100%;
     width: 100%;
     margin-top: 5rem;
     text-align: center;
-/*     animation-name: logo_zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards; */
 }
 
 
@@ -253,18 +250,6 @@ width: 100%;
     font-size: 30px;
 }
 
-#heading_txt {
-/* animation removed */
-}
-
-@keyframes logo_zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.2);
-    }
-}
 
 /* thank_you.hmtl   */
 

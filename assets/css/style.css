@@ -55,35 +55,43 @@ width: 100%;
 }
 
 /* header and footer styling */
+
+#menu {
+   
+    justify-content: center;
+}
+
 .header {
     height: auto;
     background-color: black;
     clear: both;
     text-align: center;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em; 
     top: 0;
     width: 100%;
 }
 
 .footer {
     background-color: black;
-    clear: both;
-    text-align: center;
     bottom: 0;
-/*     padding: 0.5em; */
     width: 100%;
     height: auto;
-    direction: rtl;
-    margin-top: 10rem;
+    margin-top: 5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+
 }
 
-/* Header and Menu Styling */
+/* header and footer item styling */
+
 #menu li {
-    margin: 30px;
-    padding-top: 30px;
-    display: inline;
-    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
 }
 
 #menu i {
@@ -104,15 +112,16 @@ width: 100%;
 }
 
 .footer li {
-    display: inline;
-    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer i {
     color :rgb(109, 175, 230);
     text-decoration: none;
     font-size: xx-large;
-    padding: 1em;
+    padding: 1em; 
 }
 
 .footer i:hover  {
@@ -121,6 +130,7 @@ width: 100%;
 }
 
 /* Gallery Page xxxxxxxxxx gallery_html */
+
 #gallery {
     clear: both;
     line-height: 0;
@@ -137,6 +147,7 @@ width: 100%;
 }
 
 /* Shop Page xxxxxxxx shop_html */
+
 #shop_text {
     width: 100%;
     background-color: black;
@@ -156,6 +167,7 @@ width: 100%;
 }
 
 /* Sonic GIF on shop.html */
+
 #sonic_gif {
     width: 100%;
     max-width: 300px;
@@ -167,6 +179,7 @@ width: 100%;
 
 /* Sign up page xxxxxxxxxxx sign_up.html*/
 /* Golden Axe GIF on sign_up.html */
+
 #gold_axe_gif {
     margin-top: 2rem;
     margin-left: auto;
@@ -217,6 +230,7 @@ width: 100%;
 }
 
 /* index.html  xxxxxxxxxxxxxx */
+
 #main_page {
     height: auto;
     border: black solid 2px;
@@ -313,10 +327,22 @@ width: 100%;
         text-align: center;
         margin-top: 1rem; 
         max-width: 100%;
+    }
 
+    #menu li {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        display: inline-flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #menu i {
+        font-size: large;
+    }
 
 }
-
 
 @media only screen and (max-width: 700px){ 
     #gallery { 
@@ -331,26 +357,21 @@ width: 100%;
     #error_image img {
         width: 650px;
     }
-     
-
+    
+    #menu li {
+        padding-top: 1rem;
+        display: flex;
+    }
 }
-
 
 @media only screen and (max-width: 640px){
     
     .footer li {
-        display: inline;
-        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        align-content: center;
     }
-
-
-    #menu li {
-        margin: 2em;
-        padding-top: 1rem;
-        display: inline;
-        align-items: center; 
-    }
-     
+  
     #gallery { 
         clear: both;
         line-height: 0;
@@ -400,13 +421,7 @@ width: 100%;
 }
 
 
-@media only screen and (max-width: 430px){ 
-    .header a { 
-        float: none;
-        display: block;
-        height: 20px;
-    }
- 
+@media only screen and (max-width: 470px){ 
     #gallery { 
         clear: both;
         line-height: 0;
@@ -468,8 +483,11 @@ width: 100%;
     }
 
     .footer li {
-        display: inline;
-        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        justify-content: center;
+        font-size: x-large;
     }
 
     #thanks_text {
@@ -506,4 +524,12 @@ width: 100%;
         width: 300px;
     }
 }
+
+@media only screen and (max-width: 360px){ 
+
+    .footer li {
+        display: flex ;
+        align-content: center;
+        padding: 0;
+    }
 }

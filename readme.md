@@ -115,9 +115,23 @@ The site was tested on the folowing devices which have varying screen sizes.
 The deployed site was tested on multiple devices and browsers to test structure and layout across as many devices as possible.
 Media queries were created and altered to accomodate the various different screen widths.  
 
-### Changes after Peer-Code-Review.
+### Changes after Peer-Code-Review and Testing.
 
 Following feedback from the Peer Code Review the following changes were made.
+* Layout of footer items were changed to reduce their size on screens less than 400px in width.
+* Padding was add to header items to introduce a space between the icon and text.
+* I removed an animation effect on the 'logo' image on the index.hmtl and gallery.html which was effecting margins and screen width.
+* I reduced the size of images in the gallery. I removed half of each image, the back part of the game packaging which contain alot of small text, and just left the front cover. This result in a cleaner layout.
+
+
+#### Image of gallery.html before changes.
+
+<img src="assets/images/read_me_images/gallery_page.png" style="float: left; padding-top: 20px; padding-bottom: 30px;"/>
+
+#### Image of gallery.html after changes.
+
+<img src="assets/images/read_me_images/gallery_page_new.png" style="float: left; padding-top: 20px; padding-bottom: 30px;"/>
+
 
 **Validator Testing:**
 
@@ -176,6 +190,7 @@ Coded with help from:
 * Code Institute 'Loving Running' Project: Used the gallery html structure as demostrated in Loving Running, also used the associated Read Me file as a guide.
 * Stack Overflow.
 * A little help from Slack searches.
+* Feed back from the Peer Code Review on Slack.
 
 
 #### Content:

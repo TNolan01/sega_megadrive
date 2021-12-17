@@ -33,7 +33,7 @@ The site consists of the following sections.
 ### The Load Page:
 The Load Page, index.html, guides you into the various aspects of the website. The colour scheme is dark to match styling of the SEGA's packaging. The page contains a full header and footer and a centre text box with links to pages on the site.
 
-<img src="assets/images/read_me_images/load_page.png" style="float: left; padding-top: 20px; padding-bottom: 40px; "/>
+<img src="assets/images/read_me_images/index_html_img.png" style="float: left; padding-top: 20px; padding-bottom: 40px; "/>
 
 ### The History Page:
 The History Page use a CSS Grid structure which contains grid items. Each grid item acts as a tile and contains text with an associated image to detail the history and life cycle of the console. The principal idea is to make a compelling argument for the historical importance of this console in creating one of the largest entertainment industries in the world.
@@ -43,7 +43,7 @@ The History Page use a CSS Grid structure which contains grid items. Each grid i
 ### The Gallery:
 The Gallery Page displays a collection of images of the games packaging associated with the cartridges which were used on the Mega Drive / Genesis platform. These images make a vibrant collage and on their own are visually appealing. Such images can invoke interest and nostalgia.
 
-<img src="assets/images/read_me_images/gallery_page.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
+<img src="assets/images/read_me_images/gallery_page_new.png" style="float: left; padding-top: 20px; padding-bottom: 20px;"/>
 
 ### The Sign Up Page:
 This is to gather email contact details to use to send 'newsletters' to followers and potential customers. The page contains a GIF image from a popular game as part of a simple quiz to entice viewers to sign up. 
@@ -102,7 +102,22 @@ The site was tested on the folowing devices which have varying screen sizes.
 * Motorola Moto 10 - phone
 * Amazon Fire Tablet 8"
 
-Media queires were created and altered many times to get the right amount data to display on the appropriate sized screen. The Apple devices appear to handle some aspects of the css styling but I dont believe there is any compromise in the site as displayed on the Apple devices I tested. 
+### Apple Iphone 5 Screen Shots.
+
+<img src="assets/images/read_me_images/iphone_1.jpg" style="height: 400px; width: 250px; padding: 10px" />
+<img src="assets/images/read_me_images/iphone_2.jpg" style="height: 400px; width: 250px; padding: 10px" />
+
+### Motorola G8 Screen Shots.
+
+<img src="assets/images/read_me_images/moto_1.png" style="height: 500px; width: 320px; padding: 20px" />
+<img src="assets/images/read_me_images/moto_2.png" style="height: 500px; width: 320px; padding: 20px" />
+
+The deployed site was tested on multiple devices and browsers to test structure and layout across as many devices as possible.
+Media queries were created and altered to accomodate the various different screen widths.  
+
+### Changes after Peer-Code-Review.
+
+Following feedback from the Peer Code Review the following changes were made.
 
 **Validator Testing:**
 
